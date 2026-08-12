@@ -1,0 +1,39 @@
+{
+  "source_files": [
+    "5g_network_data.csv"
+  ],
+  "raw_copies": [
+    "python\\data\\raw\\5g_network_data.csv"
+  ],
+  "file_rows": [
+    50000
+  ],
+  "merged": false,
+  "total_rows_before_dedup": 50000,
+  "merge_reason": "Single file \u2014 no merge required.",
+  "duplicates_removed": 0,
+  "final_rows": 50000,
+  "columns": [
+    "Timestamp",
+    "Location",
+    "Signal Strength (dBm)",
+    "Download Speed (Mbps)",
+    "Upload Speed (Mbps)",
+    "Latency (ms)",
+    "Jitter (ms)",
+    "Network Type",
+    "Device Model",
+    "Carrier",
+    "Band",
+    "Battery Level (%)",
+    "Temperature (\u00b0C)",
+    "Connected Duration (min)",
+    "Handover Count",
+    "Data Usage (MB)",
+    "Video Streaming Quality",
+    "VoNR Enabled",
+    "Network Congestion Level",
+    "Ping to Google (ms)",
+    "Dropped Connection"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "/bigdata/page": "app/bigdata/page.js",
+  "/overview/page": "app/overview/page.js",
+  "/qos/page": "app/qos/page.js"
+}

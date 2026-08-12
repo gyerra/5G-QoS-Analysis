@@ -1,0 +1,110 @@
+{
+  "columns": [
+    "Download Speed (Mbps)",
+    "Upload Speed (Mbps)",
+    "Latency (ms)",
+    "Jitter (ms)",
+    "Signal Strength (dBm)",
+    "Ping to Google (ms)"
+  ],
+  "pearson": {
+    "Download Speed (Mbps)": {
+      "Download Speed (Mbps)": 1.0,
+      "Upload Speed (Mbps)": -0.0087,
+      "Latency (ms)": 0.0019,
+      "Jitter (ms)": 0.0018,
+      "Signal Strength (dBm)": 0.0005,
+      "Ping to Google (ms)": -0.0064
+    },
+    "Upload Speed (Mbps)": {
+      "Download Speed (Mbps)": -0.0087,
+      "Upload Speed (Mbps)": 1.0,
+      "Latency (ms)": 0.0011,
+      "Jitter (ms)": -0.0015,
+      "Signal Strength (dBm)": 0.0016,
+      "Ping to Google (ms)": -0.0033
+    },
+    "Latency (ms)": {
+      "Download Speed (Mbps)": 0.0019,
+      "Upload Speed (Mbps)": 0.0011,
+      "Latency (ms)": 1.0,
+      "Jitter (ms)": -0.0062,
+      "Signal Strength (dBm)": -0.001,
+      "Ping to Google (ms)": 0.003
+    },
+    "Jitter (ms)": {
+      "Download Speed (Mbps)": 0.0018,
+      "Upload Speed (Mbps)": -0.0015,
+      "Latency (ms)": -0.0062,
+      "Jitter (ms)": 1.0,
+      "Signal Strength (dBm)": 0.0033,
+      "Ping to Google (ms)": -0.0027
+    },
+    "Signal Strength (dBm)": {
+      "Download Speed (Mbps)": 0.0005,
+      "Upload Speed (Mbps)": 0.0016,
+      "Latency (ms)": -0.001,
+      "Jitter (ms)": 0.0033,
+      "Signal Strength (dBm)": 1.0,
+      "Ping to Google (ms)": 0.0036
+    },
+    "Ping to Google (ms)": {
+      "Download Speed (Mbps)": -0.0064,
+      "Upload Speed (Mbps)": -0.0033,
+      "Latency (ms)": 0.003,
+      "Jitter (ms)": -0.0027,
+      "Signal Strength (dBm)": 0.0036,
+      "Ping to Google (ms)": 1.0
+    }
+  },
+  "spearman": {
+    "Download Speed (Mbps)": {
+      "Download Speed (Mbps)": 1.0,
+      "Upload Speed (Mbps)": -0.0087,
+      "Latency (ms)": 0.0019,
+      "Jitter (ms)": 0.0017,
+      "Signal Strength (dBm)": 0.0004,
+      "Ping to Google (ms)": -0.0065
+    },
+    "Upload Speed (Mbps)": {
+      "Download Speed (Mbps)": -0.0087,
+      "Upload Speed (Mbps)": 1.0,
+      "Latency (ms)": 0.0011,
+      "Jitter (ms)": -0.0015,
+      "Signal Strength (dBm)": 0.0016,
+      "Ping to Google (ms)": -0.0033
+    },
+    "Latency (ms)": {
+      "Download Speed (Mbps)": 0.0019,
+      "Upload Speed (Mbps)": 0.0011,
+      "Latency (ms)": 1.0,
+      "Jitter (ms)": -0.0062,
+      "Signal Strength (dBm)": -0.0011,
+      "Ping to Google (ms)": 0.003
+    },
+    "Jitter (ms)": {
+      "Download Speed (Mbps)": 0.0017,
+      "Upload Speed (Mbps)": -0.0015,
+      "Latency (ms)": -0.0062,
+      "Jitter (ms)": 1.0,
+      "Signal Strength (dBm)": 0.0032,
+      "Ping to Google (ms)": -0.0026
+    },
+    "Signal Strength (dBm)": {
+      "Download Speed (Mbps)": 0.0004,
+      "Upload Speed (Mbps)": 0.0016,
+      "Latency (ms)": -0.0011,
+      "Jitter (ms)": 0.0032,
+      "Signal Strength (dBm)": 1.0,
+      "Ping to Google (ms)": 0.0036
+    },
+    "Ping to Google (ms)": {
+      "Download Speed (Mbps)": -0.0065,
+      "Upload Speed (Mbps)": -0.0033,
+      "Latency (ms)": 0.003,
+      "Jitter (ms)": -0.0026,
+      "Signal Strength (dBm)": 0.0036,
+      "Ping to Google (ms)": 1.0
+    }
+  }
+}

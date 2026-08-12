@@ -1,0 +1,26 @@
+[
+  {
+    "Network Type": "4G",
+    "Download Speed (Mbps)": 551.36,
+    "Upload Speed (Mbps)": 84.9,
+    "Latency (ms)": 10.49,
+    "Jitter (ms)": 2.58,
+    "Signal Strength (dBm)": -84.96
+  },
+  {
+    "Network Type": "5G NSA",
+    "Download Speed (Mbps)": 552.88,
+    "Upload Speed (Mbps)": 84.56,
+    "Latency (ms)": 10.47,
+    "Jitter (ms)": 2.54,
+    "Signal Strength (dBm)": -84.78
+  },
+  {
+    "Network Type": "5G SA",
+    "Download Speed (Mbps)": 549.29,
+    "Upload Speed (Mbps)": 84.95,
+    "Latency (ms)": 10.53,
+    "Jitter (ms)": 2.56,
+    "Signal Strength (dBm)": -84.78
+  }
+]

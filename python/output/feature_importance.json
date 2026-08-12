@@ -1,0 +1,132 @@
+{
+  "Download Speed (Mbps)": {
+    "best_model": "Linear Regression",
+    "features": [
+      {
+        "feature": "Network Congestion Level",
+        "importance": 4.299
+      },
+      {
+        "feature": "Dropped Connection",
+        "importance": 2.6752
+      },
+      {
+        "feature": "Video Streaming Quality",
+        "importance": 1.1227
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 0.8011
+      },
+      {
+        "feature": "month",
+        "importance": 0.3296
+      },
+      {
+        "feature": "Handover Count",
+        "importance": 0.2029
+      },
+      {
+        "feature": "VoNR Enabled",
+        "importance": 0.1832
+      },
+      {
+        "feature": "Carrier",
+        "importance": 0.1772
+      },
+      {
+        "feature": "Network Type",
+        "importance": 0.1161
+      },
+      {
+        "feature": "Location",
+        "importance": 0.1047
+      },
+      {
+        "feature": "Device Model",
+        "importance": 0.1041
+      },
+      {
+        "feature": "Ping to Google (ms)",
+        "importance": 0.0632
+      },
+      {
+        "feature": "Connected Duration (min)",
+        "importance": 0.0547
+      },
+      {
+        "feature": "hour",
+        "importance": 0.05
+      },
+      {
+        "feature": "Band",
+        "importance": 0.0341
+      }
+    ]
+  },
+  "Latency (ms)": {
+    "best_model": "Gradient Boosting",
+    "features": [
+      {
+        "feature": "Data Usage (MB)",
+        "importance": 0.2613
+      },
+      {
+        "feature": "Signal Strength (dBm)",
+        "importance": 0.1448
+      },
+      {
+        "feature": "Temperature (\u00b0C)",
+        "importance": 0.1187
+      },
+      {
+        "feature": "Jitter (ms)",
+        "importance": 0.1131
+      },
+      {
+        "feature": "Battery Level (%)",
+        "importance": 0.0822
+      },
+      {
+        "feature": "Connected Duration (min)",
+        "importance": 0.0796
+      },
+      {
+        "feature": "hour",
+        "importance": 0.0447
+      },
+      {
+        "feature": "Device Model",
+        "importance": 0.0297
+      },
+      {
+        "feature": "Location",
+        "importance": 0.0219
+      },
+      {
+        "feature": "month",
+        "importance": 0.0215
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 0.0145
+      },
+      {
+        "feature": "Network Type",
+        "importance": 0.014
+      },
+      {
+        "feature": "Network Congestion Level",
+        "importance": 0.0135
+      },
+      {
+        "feature": "Handover Count",
+        "importance": 0.0132
+      },
+      {
+        "feature": "Band",
+        "importance": 0.009
+      }
+    ]
+  }
+}

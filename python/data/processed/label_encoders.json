@@ -1,0 +1,45 @@
+{
+  "Location": {
+    "0": "Berlin",
+    "1": "Chennai",
+    "2": "Delhi",
+    "3": "Kolkata",
+    "4": "Mumbai",
+    "5": "New York",
+    "6": "San Francisco",
+    "7": "Tokyo"
+  },
+  "Network Type": {
+    "0": "4G",
+    "1": "5G NSA",
+    "2": "5G SA"
+  },
+  "Carrier": {
+    "0": "AT&T",
+    "1": "Airtel",
+    "2": "BSNL",
+    "3": "Jio",
+    "4": "T-Mobile",
+    "5": "Verizon",
+    "6": "Vi"
+  },
+  "Band": {
+    "0": "n258",
+    "1": "n260",
+    "2": "n28",
+    "3": "n41",
+    "4": "n78"
+  },
+  "Network Congestion Level": {
+    "0": "High",
+    "1": "Low",
+    "2": "Medium"
+  },
+  "Device Model": {
+    "0": "GT 7",
+    "1": "Galaxy S23",
+    "2": "Nord 4",
+    "3": "Pixel 7",
+    "4": "iPhone 14"
+  }
+}

@@ -1,0 +1,517 @@
+{
+  "generated_at": "2026-08-07T15:00:04.496328+00:00",
+  "search_directories": [
+    "QOS Analysis",
+    "."
+  ],
+  "files_found": 1,
+  "files": [
+    {
+      "filename": "5g_network_data.csv",
+      "filepath": "5g_network_data.csv",
+      "rows": 50000,
+      "columns": 21,
+      "column_names": [
+        "Timestamp",
+        "Location",
+        "Signal Strength (dBm)",
+        "Download Speed (Mbps)",
+        "Upload Speed (Mbps)",
+        "Latency (ms)",
+        "Jitter (ms)",
+        "Network Type",
+        "Device Model",
+        "Carrier",
+        "Band",
+        "Battery Level (%)",
+        "Temperature (\u00b0C)",
+        "Connected Duration (min)",
+        "Handover Count",
+        "Data Usage (MB)",
+        "Video Streaming Quality",
+        "VoNR Enabled",
+        "Network Congestion Level",
+        "Ping to Google (ms)",
+        "Dropped Connection"
+      ],
+      "duplicate_rows": 0,
+      "column_profiles": [
+        {
+          "column": "Timestamp",
+          "dtype": "str",
+          "category": "datetime_candidate",
+          "qos_roles": [
+            "timestamp"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 50000
+        },
+        {
+          "column": "Location",
+          "dtype": "str",
+          "category": "categorical",
+          "qos_roles": [
+            "location"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 8,
+          "sample_values": [
+            "San Francisco",
+            "Chennai",
+            "New York",
+            "Kolkata",
+            "Mumbai",
+            "Tokyo",
+            "Berlin",
+            "Delhi"
+          ]
+        },
+        {
+          "column": "Signal Strength (dBm)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [
+            "signal_strength"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 501,
+          "min": -110.0,
+          "max": -60.0,
+          "mean": -84.8373
+        },
+        {
+          "column": "Download Speed (Mbps)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [
+            "download_speed"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 38384,
+          "min": 100.04,
+          "max": 999.99,
+          "mean": 551.1811
+        },
+        {
+          "column": "Upload Speed (Mbps)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [
+            "upload_speed"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 12738,
+          "min": 20.0,
+          "max": 150.0,
+          "mean": 84.8018
+        },
+        {
+          "column": "Latency (ms)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [
+            "latency"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 191,
+          "min": 1.0,
+          "max": 20.0,
+          "mean": 10.4972
+        },
+        {
+          "column": "Jitter (ms)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [
+            "jitter"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 491,
+          "min": 0.1,
+          "max": 5.0,
+          "mean": 2.5607
+        },
+        {
+          "column": "Network Type",
+          "dtype": "str",
+          "category": "categorical",
+          "qos_roles": [
+            "network_technology"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 3,
+          "sample_values": [
+            "5G NSA",
+            "4G",
+            "5G SA"
+          ]
+        },
+        {
+          "column": "Device Model",
+          "dtype": "str",
+          "category": "categorical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 5,
+          "sample_values": [
+            "iPhone 14",
+            "Pixel 7",
+            "Galaxy S23",
+            "GT 7",
+            "Nord 4"
+          ]
+        },
+        {
+          "column": "Carrier",
+          "dtype": "str",
+          "category": "categorical",
+          "qos_roles": [
+            "carrier"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 7,
+          "sample_values": [
+            "AT&T",
+            "Airtel",
+            "T-Mobile",
+            "BSNL",
+            "Vi",
+            "Jio",
+            "Verizon"
+          ]
+        },
+        {
+          "column": "Band",
+          "dtype": "str",
+          "category": "categorical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 5,
+          "sample_values": [
+            "n78",
+            "n260",
+            "n41",
+            "n28",
+            "n258"
+          ]
+        },
+        {
+          "column": "Battery Level (%)",
+          "dtype": "int64",
+          "category": "numerical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 90,
+          "min": 10.0,
+          "max": 99.0,
+          "mean": 54.5791
+        },
+        {
+          "column": "Temperature (\u00b0C)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 251,
+          "min": 20.0,
+          "max": 45.0,
+          "mean": 32.4503
+        },
+        {
+          "column": "Connected Duration (min)",
+          "dtype": "int64",
+          "category": "numerical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 59,
+          "min": 1.0,
+          "max": 59.0,
+          "mean": 29.8554
+        },
+        {
+          "column": "Handover Count",
+          "dtype": "int64",
+          "category": "numerical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 5,
+          "min": 0.0,
+          "max": 4.0,
+          "mean": 2.0042
+        },
+        {
+          "column": "Data Usage (MB)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 31385,
+          "min": 10.0,
+          "max": 500.0,
+          "mean": 254.3811
+        },
+        {
+          "column": "Video Streaming Quality",
+          "dtype": "int64",
+          "category": "numerical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 5,
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 3.0
+        },
+        {
+          "column": "VoNR Enabled",
+          "dtype": "bool",
+          "category": "boolean",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "sample_values": [
+            "False",
+            "True"
+          ]
+        },
+        {
+          "column": "Network Congestion Level",
+          "dtype": "str",
+          "category": "categorical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 3,
+          "sample_values": [
+            "High",
+            "Medium",
+            "Low"
+          ]
+        },
+        {
+          "column": "Ping to Google (ms)",
+          "dtype": "float64",
+          "category": "numerical",
+          "qos_roles": [],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 901,
+          "min": 10.0,
+          "max": 100.0,
+          "mean": 54.9471
+        },
+        {
+          "column": "Dropped Connection",
+          "dtype": "bool",
+          "category": "boolean",
+          "qos_roles": [
+            "dropped_connection"
+          ],
+          "missing_count": 0,
+          "missing_pct": 0.0,
+          "unique_count": 2,
+          "sample_values": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "numerical_columns": [
+        "Signal Strength (dBm)",
+        "Download Speed (Mbps)",
+        "Upload Speed (Mbps)",
+        "Latency (ms)",
+        "Jitter (ms)",
+        "Battery Level (%)",
+        "Temperature (\u00b0C)",
+        "Connected Duration (min)",
+        "Handover Count",
+        "Data Usage (MB)",
+        "Video Streaming Quality",
+        "Ping to Google (ms)"
+      ],
+      "categorical_columns": [
+        "Location",
+        "Network Type",
+        "Device Model",
+        "Carrier",
+        "Band",
+        "VoNR Enabled",
+        "Network Congestion Level",
+        "Dropped Connection"
+      ],
+      "datetime_columns": [
+        "Timestamp"
+      ],
+      "geographic_columns": [],
+      "qos_related_columns": [
+        {
+          "column": "Timestamp",
+          "roles": [
+            "timestamp"
+          ]
+        },
+        {
+          "column": "Location",
+          "roles": [
+            "location"
+          ]
+        },
+        {
+          "column": "Signal Strength (dBm)",
+          "roles": [
+            "signal_strength"
+          ]
+        },
+        {
+          "column": "Download Speed (Mbps)",
+          "roles": [
+            "download_speed"
+          ]
+        },
+        {
+          "column": "Upload Speed (Mbps)",
+          "roles": [
+            "upload_speed"
+          ]
+        },
+        {
+          "column": "Latency (ms)",
+          "roles": [
+            "latency"
+          ]
+        },
+        {
+          "column": "Jitter (ms)",
+          "roles": [
+            "jitter"
+          ]
+        },
+        {
+          "column": "Network Type",
+          "roles": [
+            "network_technology"
+          ]
+        },
+        {
+          "column": "Carrier",
+          "roles": [
+            "carrier"
+          ]
+        },
+        {
+          "column": "Dropped Connection",
+          "roles": [
+            "dropped_connection"
+          ]
+        }
+      ],
+      "merge_notes": {
+        "can_merge_with_others": false,
+        "reason": "Only one CSV file found; no merge required."
+      },
+      "recommended_targets": [
+        {
+          "role": "download_speed",
+          "column": "Download Speed (Mbps)"
+        },
+        {
+          "role": "latency",
+          "column": "Latency (ms)"
+        },
+        {
+          "role": "upload_speed",
+          "column": "Upload Speed (Mbps)"
+        }
+      ],
+      "potential_ml_features": [
+        {
+          "role": "signal_strength",
+          "column": "Signal Strength (dBm)"
+        },
+        {
+          "role": "jitter",
+          "column": "Jitter (ms)"
+        },
+        {
+          "role": "dropped_connection",
+          "column": "Dropped Connection"
+        },
+        {
+          "role": "network_technology",
+          "column": "Network Type"
+        },
+        {
+          "role": "carrier",
+          "column": "Carrier"
+        },
+        {
+          "role": "location",
+          "column": "Location"
+        },
+        {
+          "role": "timestamp",
+          "column": "Timestamp"
+        },
+        {
+          "role": "other_numeric",
+          "column": "Battery Level (%)"
+        },
+        {
+          "role": "other_numeric",
+          "column": "Temperature (\u00b0C)"
+        },
+        {
+          "role": "other_numeric",
+          "column": "Connected Duration (min)"
+        },
+        {
+          "role": "other_numeric",
+          "column": "Handover Count"
+        },
+        {
+          "role": "other_numeric",
+          "column": "Data Usage (MB)"
+        },
+        {
+          "role": "other_numeric",
+          "column": "Video Streaming Quality"
+        },
+        {
+          "role": "other_numeric",
+          "column": "Ping to Google (ms)"
+        }
+      ],
+      "data_quality_issues": [
+        "No missing values detected."
+      ]
+    }
+  ],
+  "unavailable_qos_metrics": [
+    "packet_loss"
+  ],
+  "merge_recommendation": "Single file \u2014 analyse standalone, no merge.",
+  "project_impact_notes": [
+    "Dataset contains 50,000 records \u2014 sufficient for EDA and ML.",
+    "Unavailable QoS metrics (packet_loss) will be excluded from analysis.",
+    "Timestamp column present \u2014 chronological train/test split recommended for ML.",
+    "No continuous packet-loss percentage column; 'Dropped Connection' (boolean) is available as a drop-event indicator only."
+  ]
+}

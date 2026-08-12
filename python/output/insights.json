@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-08-07T15:09:54.232336+00:00",
+  "insights": [
+    {
+      "category": "Carrier",
+      "title": "Best Download Speed by Carrier",
+      "value": "BSNL \u2014 558.11 Mbps avg",
+      "detail": "Computed from mean download speed grouped by carrier."
+    },
+    {
+      "category": "Carrier",
+      "title": "Lowest Latency Carrier",
+      "value": "T-Mobile \u2014 10.43 ms avg",
+      "detail": "Computed from mean latency grouped by carrier."
+    },
+    {
+      "category": "Technology",
+      "title": "Highest Avg Download by Network Type",
+      "value": "5G NSA \u2014 552.88 Mbps",
+      "detail": "Compares 4G, 5G NSA, and 5G SA performance."
+    },
+    {
+      "category": "Correlation",
+      "title": "Strongest QoS Correlation",
+      "value": "Download Speed (Mbps) \u2194 Upload Speed (Mbps) (r=0.009)",
+      "detail": "Pearson correlation between numerical QoS parameters."
+    },
+    {
+      "category": "ML",
+      "title": "Best Model for Download Speed (Mbps)",
+      "value": "Linear Regression \u2014 MAE=225.8577, RMSE=260.6717, R\u00b2=-0.0007",
+      "detail": "Selected using composite ranking across MAE, RMSE, and R\u00b2."
+    },
+    {
+      "category": "ML",
+      "title": "Best Model for Latency (ms)",
+      "value": "Gradient Boosting \u2014 MAE=4.7878, RMSE=5.5172, R\u00b2=-0.0016",
+      "detail": "Selected using composite ranking across MAE, RMSE, and R\u00b2."
+    },
+    {
+      "category": "Feature Importance",
+      "title": "Top Feature for Download Speed (Mbps)",
+      "value": "Network Congestion Level (importance=4.299)",
+      "detail": "From Linear Regression feature importance."
+    },
+    {
+      "category": "Feature Importance",
+      "title": "Top Feature for Latency (ms)",
+      "value": "Data Usage (MB) (importance=0.2613)",
+      "detail": "From Gradient Boosting feature importance."
+    },
+    {
+      "category": "Overview",
+      "title": "Dataset Overview",
+      "value": "50,000 records | Avg DL: 551.18 Mbps",
+      "detail": "Historical network analytics from processed dataset."
+    }
+  ]
+}

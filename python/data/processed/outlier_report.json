@@ -1,0 +1,50 @@
+{
+  "Signal Strength (dBm)": {
+    "method": "IQR",
+    "lower_bound": -135.2,
+    "upper_bound": -34.4,
+    "outlier_count": 0,
+    "outlier_pct": 0.0,
+    "action": "retained \u2014 may represent legitimate network conditions"
+  },
+  "Download Speed (Mbps)": {
+    "method": "IQR",
+    "lower_bound": -352.1875,
+    "upper_bound": 1452.7125,
+    "outlier_count": 0,
+    "outlier_pct": 0.0,
+    "action": "retained \u2014 may represent legitimate network conditions"
+  },
+  "Upload Speed (Mbps)": {
+    "method": "IQR",
+    "lower_bound": -45.405,
+    "upper_bound": 214.955,
+    "outlier_count": 0,
+    "outlier_pct": 0.0,
+    "action": "retained \u2014 may represent legitimate network conditions"
+  },
+  "Latency (ms)": {
+    "method": "IQR",
+    "lower_bound": -8.7,
+    "upper_bound": 29.7,
+    "outlier_count": 0,
+    "outlier_pct": 0.0,
+    "action": "retained \u2014 may represent legitimate network conditions"
+  },
+  "Jitter (ms)": {
+    "method": "IQR",
+    "lower_bound": -2.345,
+    "upper_bound": 7.455,
+    "outlier_count": 0,
+    "outlier_pct": 0.0,
+    "action": "retained \u2014 may represent legitimate network conditions"
+  },
+  "Ping to Google (ms)": {
+    "method": "IQR",
+    "lower_bound": -35.1,
+    "upper_bound": 144.9,
+    "outlier_count": 0,
+    "outlier_pct": 0.0,
+    "action": "retained \u2014 may represent legitimate network conditions"
+  }
+}

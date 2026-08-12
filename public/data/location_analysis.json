@@ -1,0 +1,66 @@
+[
+  {
+    "Location": "Berlin",
+    "Download Speed (Mbps)": 551.76,
+    "Upload Speed (Mbps)": 84.83,
+    "Latency (ms)": 10.32,
+    "Jitter (ms)": 2.55,
+    "Signal Strength (dBm)": -84.69
+  },
+  {
+    "Location": "Chennai",
+    "Download Speed (Mbps)": 549.4,
+    "Upload Speed (Mbps)": 85.18,
+    "Latency (ms)": 10.52,
+    "Jitter (ms)": 2.55,
+    "Signal Strength (dBm)": -84.99
+  },
+  {
+    "Location": "Delhi",
+    "Download Speed (Mbps)": 548.34,
+    "Upload Speed (Mbps)": 84.46,
+    "Latency (ms)": 10.59,
+    "Jitter (ms)": 2.57,
+    "Signal Strength (dBm)": -84.74
+  },
+  {
+    "Location": "Kolkata",
+    "Download Speed (Mbps)": 557.03,
+    "Upload Speed (Mbps)": 84.45,
+    "Latency (ms)": 10.48,
+    "Jitter (ms)": 2.55,
+    "Signal Strength (dBm)": -85.1
+  },
+  {
+    "Location": "Mumbai",
+    "Download Speed (Mbps)": 550.04,
+    "Upload Speed (Mbps)": 84.74,
+    "Latency (ms)": 10.5,
+    "Jitter (ms)": 2.61,
+    "Signal Strength (dBm)": -84.75
+  },
+  {
+    "Location": "New York",
+    "Download Speed (Mbps)": 548.91,
+    "Upload Speed (Mbps)": 84.7,
+    "Latency (ms)": 10.42,
+    "Jitter (ms)": 2.54,
+    "Signal Strength (dBm)": -84.95
+  },
+  {
+    "Location": "San Francisco",
+    "Download Speed (Mbps)": 553.01,
+    "Upload Speed (Mbps)": 84.95,
+    "Latency (ms)": 10.61,
+    "Jitter (ms)": 2.59,
+    "Signal Strength (dBm)": -84.81
+  },
+  {
+    "Location": "Tokyo",
+    "Download Speed (Mbps)": 550.96,
+    "Upload Speed (Mbps)": 85.09,
+    "Latency (ms)": 10.56,
+    "Jitter (ms)": 2.54,
+    "Signal Strength (dBm)": -84.66
+  }
+]

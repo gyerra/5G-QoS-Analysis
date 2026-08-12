@@ -1,0 +1,18 @@
+{
+  "total_records": 50000,
+  "averages": {
+    "Download Speed (Mbps)": 551.18,
+    "Upload Speed (Mbps)": 84.8,
+    "Latency (ms)": 10.5,
+    "Jitter (ms)": 2.56,
+    "Signal Strength (dBm)": -84.84
+  },
+  "date_range": {
+    "start": "2024-06-15 01:49:51.224697",
+    "end": "2025-05-28 06:59:51.089339"
+  },
+  "unavailable_metrics": {
+    "packet_loss_pct": "Not present in dataset \u2014 only boolean Dropped Connection available",
+    "latitude_longitude": "Not present \u2014 city-level Location only"
+  }
+}

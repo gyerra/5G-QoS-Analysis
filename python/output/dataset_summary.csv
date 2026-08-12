@@ -1,0 +1,22 @@
+filename,column,dtype,category,missing_count,missing_pct,unique_count,qos_roles
+5g_network_data.csv,Timestamp,str,datetime_candidate,0,0.0,50000,timestamp
+5g_network_data.csv,Location,str,categorical,0,0.0,8,location
+5g_network_data.csv,Signal Strength (dBm),float64,numerical,0,0.0,501,signal_strength
+5g_network_data.csv,Download Speed (Mbps),float64,numerical,0,0.0,38384,download_speed
+5g_network_data.csv,Upload Speed (Mbps),float64,numerical,0,0.0,12738,upload_speed
+5g_network_data.csv,Latency (ms),float64,numerical,0,0.0,191,latency
+5g_network_data.csv,Jitter (ms),float64,numerical,0,0.0,491,jitter
+5g_network_data.csv,Network Type,str,categorical,0,0.0,3,network_technology
+5g_network_data.csv,Device Model,str,categorical,0,0.0,5,
+5g_network_data.csv,Carrier,str,categorical,0,0.0,7,carrier
+5g_network_data.csv,Band,str,categorical,0,0.0,5,
+5g_network_data.csv,Battery Level (%),int64,numerical,0,0.0,90,
+5g_network_data.csv,Temperature (°C),float64,numerical,0,0.0,251,
+5g_network_data.csv,Connected Duration (min),int64,numerical,0,0.0,59,
+5g_network_data.csv,Handover Count,int64,numerical,0,0.0,5,
+5g_network_data.csv,Data Usage (MB),float64,numerical,0,0.0,31385,
+5g_network_data.csv,Video Streaming Quality,int64,numerical,0,0.0,5,
+5g_network_data.csv,VoNR Enabled,bool,boolean,0,0.0,2,
+5g_network_data.csv,Network Congestion Level,str,categorical,0,0.0,3,
+5g_network_data.csv,Ping to Google (ms),float64,numerical,0,0.0,901,
+5g_network_data.csv,Dropped Connection,bool,boolean,0,0.0,2,dropped_connection

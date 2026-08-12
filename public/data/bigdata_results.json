@@ -1,0 +1,226 @@
+{
+  "pyspark_version": "N/A (pandas fallback)",
+  "dataset": {
+    "filename": "5g_network_data.csv",
+    "total_records": 50000,
+    "total_columns": 21,
+    "missing_values": 0,
+    "duplicates_removed": 0,
+    "high_quality_records": 4265,
+    "high_quality_pct": 8.53
+  },
+  "overall_qos": {
+    "avg_download_mbps": 551.18,
+    "avg_upload_mbps": 84.8,
+    "avg_latency_ms": 10.5,
+    "avg_jitter_ms": 2.56,
+    "avg_signal_dbm": -84.84,
+    "record_count": 50000
+  },
+  "carrier_aggregation": [
+    {
+      "Carrier": "AT&T",
+      "avg_download": 551.18,
+      "avg_upload": 84.72,
+      "avg_latency": 10.49,
+      "avg_jitter": 2.54,
+      "avg_signal": -84.72,
+      "record_count": 8382
+    },
+    {
+      "Carrier": "Airtel",
+      "avg_download": 548.85,
+      "avg_upload": 85.16,
+      "avg_latency": 10.54,
+      "avg_jitter": 2.58,
+      "avg_signal": -84.92,
+      "record_count": 6252
+    },
+    {
+      "Carrier": "BSNL",
+      "avg_download": 558.11,
+      "avg_upload": 84.84,
+      "avg_latency": 10.52,
+      "avg_jitter": 2.57,
+      "avg_signal": -84.87,
+      "record_count": 6311
+    },
+    {
+      "Carrier": "Jio",
+      "avg_download": 545.48,
+      "avg_upload": 84.51,
+      "avg_latency": 10.57,
+      "avg_jitter": 2.55,
+      "avg_signal": -85.05,
+      "record_count": 6256
+    },
+    {
+      "Carrier": "T-Mobile",
+      "avg_download": 552.67,
+      "avg_upload": 85.11,
+      "avg_latency": 10.43,
+      "avg_jitter": 2.58,
+      "avg_signal": -84.93,
+      "record_count": 8375
+    },
+    {
+      "Carrier": "Verizon",
+      "avg_download": 549.63,
+      "avg_upload": 84.85,
+      "avg_latency": 10.51,
+      "avg_jitter": 2.55,
+      "avg_signal": -84.68,
+      "record_count": 8327
+    },
+    {
+      "Carrier": "Vi",
+      "avg_download": 552.32,
+      "avg_upload": 84.32,
+      "avg_latency": 10.45,
+      "avg_jitter": 2.56,
+      "avg_signal": -84.74,
+      "record_count": 6097
+    }
+  ],
+  "technology_aggregation": [
+    {
+      "Network Type": "4G",
+      "avg_download": 551.36,
+      "avg_upload": 84.9,
+      "avg_latency": 10.49,
+      "avg_jitter": 2.58,
+      "avg_signal": -84.96,
+      "record_count": 16549
+    },
+    {
+      "Network Type": "5G NSA",
+      "avg_download": 552.88,
+      "avg_upload": 84.56,
+      "avg_latency": 10.47,
+      "avg_jitter": 2.54,
+      "avg_signal": -84.78,
+      "record_count": 16793
+    },
+    {
+      "Network Type": "5G SA",
+      "avg_download": 549.29,
+      "avg_upload": 84.95,
+      "avg_latency": 10.53,
+      "avg_jitter": 2.56,
+      "avg_signal": -84.78,
+      "record_count": 16658
+    }
+  ],
+  "location_aggregation": [
+    {
+      "Location": "Berlin",
+      "avg_download": 551.76,
+      "avg_latency": 10.32,
+      "record_count": 6346
+    },
+    {
+      "Location": "Chennai",
+      "avg_download": 549.4,
+      "avg_latency": 10.52,
+      "record_count": 6236
+    },
+    {
+      "Location": "Delhi",
+      "avg_download": 548.34,
+      "avg_latency": 10.59,
+      "record_count": 6213
+    },
+    {
+      "Location": "Kolkata",
+      "avg_download": 557.03,
+      "avg_latency": 10.48,
+      "record_count": 6219
+    },
+    {
+      "Location": "Mumbai",
+      "avg_download": 550.04,
+      "avg_latency": 10.5,
+      "record_count": 6248
+    },
+    {
+      "Location": "New York",
+      "avg_download": 548.91,
+      "avg_latency": 10.42,
+      "record_count": 6218
+    },
+    {
+      "Location": "San Francisco",
+      "avg_download": 553.01,
+      "avg_latency": 10.61,
+      "record_count": 6221
+    },
+    {
+      "Location": "Tokyo",
+      "avg_download": 550.96,
+      "avg_latency": 10.56,
+      "record_count": 6299
+    }
+  ],
+  "network_distribution": {
+    "5G NSA": 16793,
+    "5G SA": 16658,
+    "4G": 16549
+  },
+  "dropped_connection_by_carrier": [
+    {
+      "Carrier": "AT&T",
+      "drop_rate_pct": 50.18,
+      "total": 8382
+    },
+    {
+      "Carrier": "Airtel",
+      "drop_rate_pct": 49.79,
+      "total": 6252
+    },
+    {
+      "Carrier": "BSNL",
+      "drop_rate_pct": 50.72,
+      "total": 6311
+    },
+    {
+      "Carrier": "Jio",
+      "drop_rate_pct": 49.89,
+      "total": 6256
+    },
+    {
+      "Carrier": "T-Mobile",
+      "drop_rate_pct": 50.75,
+      "total": 8375
+    },
+    {
+      "Carrier": "Verizon",
+      "drop_rate_pct": 49.0,
+      "total": 8327
+    },
+    {
+      "Carrier": "Vi",
+      "drop_rate_pct": 50.19,
+      "total": 6097
+    }
+  ],
+  "big_data_concepts": {
+    "Volume": "The dataset contains 50,000 network measurement records spanning 11 months (June 2024 \u2013 May 2025). In real 5G networks, such measurements are collected continuously from millions of devices, generating data at a scale that requires distributed processing frameworks.",
+    "Velocity": "Network quality measurements (signal strength, latency, throughput) can be generated every few seconds per device. Across thousands of active users in a city, this results in millions of records per hour \u2014 requiring stream processing pipelines like Apache Kafka + Spark Streaming.",
+    "Variety": "The dataset contains 21 columns of mixed types: numerical (speed, latency, signal), categorical (carrier, location, band, network type), boolean (VoNR, dropped connection), and temporal (timestamp). Real deployments also include GPS coordinates, application-layer metrics, and device telemetry.",
+    "Veracity": "Real-world network data suffers from sensor errors, dropped packets, inconsistent timestamps, and device-specific biases. This dataset had 0 missing values and 0 duplicates, which were addressed during preprocessing. Outliers were identified using IQR analysis and retained as valid extreme network conditions.",
+    "Value": "Raw network measurements become actionable insights through analysis: carrier performance comparison, network type benchmarking, temporal QoS trends, and predictive modelling. These insights drive network planning, carrier selection, and service quality improvements."
+  },
+  "spark_pipeline_steps": [
+    "SparkSession.builder \u2192 local[*] cluster",
+    "spark.read.csv() \u2192 Distributed DataFrame",
+    "df.printSchema() \u2192 Column types",
+    "df.count() \u2192 Total records",
+    "df.filter(isNull) \u2192 Missing value detection",
+    "df.dropDuplicates() \u2192 Data deduplication",
+    "df.agg(avg, count) \u2192 Overall QoS aggregation",
+    "df.groupBy('Carrier').agg() \u2192 Carrier comparison",
+    "df.groupBy('Network Type').agg() \u2192 Technology comparison",
+    "df.groupBy('Location').agg() \u2192 Location analysis",
+    "df.filter(condition) \u2192 High-quality record selection"
+  ]
+}

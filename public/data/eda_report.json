@@ -1,0 +1,16 @@
+{
+  "distributions": [
+    "dist_download_speed_mbps.png",
+    "dist_upload_speed_mbps.png",
+    "dist_latency_ms.png",
+    "dist_jitter_ms.png",
+    "dist_signal_strength_dbm.png"
+  ],
+  "scatter_plots": [
+    "scatter_signal_vs_download.png",
+    "scatter_signal_vs_latency.png",
+    "scatter_latency_vs_download.png",
+    "scatter_jitter_vs_latency.png"
+  ],
+  "heatmap": "correlation_heatmap.png"
+}

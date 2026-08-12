@@ -1,0 +1,14 @@
+{
+  "initial_rows": 50000,
+  "final_rows": 50000,
+  "duplicates_removed": 0,
+  "missing_treatment": {},
+  "outliers_retained": true,
+  "timestamp_parsed": true,
+  "columns_added": [
+    "hour",
+    "day_of_week",
+    "month",
+    "date"
+  ]
+}

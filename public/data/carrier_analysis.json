@@ -1,0 +1,58 @@
+[
+  {
+    "Carrier": "AT&T",
+    "Download Speed (Mbps)": 551.18,
+    "Upload Speed (Mbps)": 84.72,
+    "Latency (ms)": 10.49,
+    "Jitter (ms)": 2.54,
+    "Signal Strength (dBm)": -84.72
+  },
+  {
+    "Carrier": "Airtel",
+    "Download Speed (Mbps)": 548.85,
+    "Upload Speed (Mbps)": 85.16,
+    "Latency (ms)": 10.54,
+    "Jitter (ms)": 2.58,
+    "Signal Strength (dBm)": -84.92
+  },
+  {
+    "Carrier": "BSNL",
+    "Download Speed (Mbps)": 558.11,
+    "Upload Speed (Mbps)": 84.84,
+    "Latency (ms)": 10.52,
+    "Jitter (ms)": 2.57,
+    "Signal Strength (dBm)": -84.87
+  },
+  {
+    "Carrier": "Jio",
+    "Download Speed (Mbps)": 545.48,
+    "Upload Speed (Mbps)": 84.51,
+    "Latency (ms)": 10.57,
+    "Jitter (ms)": 2.55,
+    "Signal Strength (dBm)": -85.05
+  },
+  {
+    "Carrier": "T-Mobile",
+    "Download Speed (Mbps)": 552.67,
+    "Upload Speed (Mbps)": 85.11,
+    "Latency (ms)": 10.43,
+    "Jitter (ms)": 2.58,
+    "Signal Strength (dBm)": -84.93
+  },
+  {
+    "Carrier": "Verizon",
+    "Download Speed (Mbps)": 549.63,
+    "Upload Speed (Mbps)": 84.85,
+    "Latency (ms)": 10.51,
+    "Jitter (ms)": 2.55,
+    "Signal Strength (dBm)": -84.68
+  },
+  {
+    "Carrier": "Vi",
+    "Download Speed (Mbps)": 552.32,
+    "Upload Speed (Mbps)": 84.32,
+    "Latency (ms)": 10.45,
+    "Jitter (ms)": 2.56,
+    "Signal Strength (dBm)": -84.74
+  }
+]
