@@ -4,7 +4,7 @@ Academic Project for **Data Analysis & Visualization** and **Big Data Fundamenta
 
 ---
 
-## 💡 Practical Purpose & Business Use Case of the Dashboard
+## Practical Purpose & Business Use Case of the Dashboard
 
 ### Why Build This Dashboard?
 In modern telecommunications, **5G Quality of Service (QoS)** directly dictates user experience, network reliability, and operator competitiveness. Network telemetry data is generated constantly across thousands of cell towers and millions of user devices. Without central analytics, telecom engineers cannot quickly pinpoint coverage gaps, cell congestion, or performance degradation.
@@ -31,7 +31,7 @@ This interactive dashboard serves as an **end-to-end Telemetry & Analytics Platf
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a comprehensive Quality of Service (QoS) analysis pipeline and interactive web dashboard for 5G mobile communication networks.
 
@@ -39,7 +39,7 @@ The application domain focuses on **5G telecom analytics**, processing **50,000 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 1. **Data Preprocessing & Cleaning**: Detect missing values, impute numeric/categorical columns, identify outliers (IQR), and format timestamps.
 2. **Exploratory Data Analysis (EDA)**: Generate statistical summaries (Mean, Median, Std, Min, Max) and visualization plots with explicit X & Y axis labeling (Histograms, Box plots, Scatter plots, Correlation Heatmap).
@@ -50,7 +50,7 @@ The application domain focuses on **5G telecom analytics**, processing **50,000 
 
 ---
 
-## 🤖 Machine Learning Model Comparison & Evaluation Metrics Explained
+## Machine Learning Model Comparison & Evaluation Metrics Explained
 
 ### Why Compare Multiple ML Models?
 In data science, no single algorithm is optimal for all datasets (the *No Free Lunch* theorem). We compare 5 different models:
@@ -78,7 +78,7 @@ Comparing these models on the dashboard allows us to select the model with the l
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 QOS Analysis/
@@ -129,7 +129,7 @@ QOS Analysis/
 
 ---
 
-## 🔄 Project Pipeline & Workflow
+## Project Pipeline & Workflow
 
 ```text
 5G Network Dataset (50,000 Records)
@@ -149,7 +149,7 @@ Interactive Web Dashboard (Next.js + Recharts)
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Python Pipeline Execution
 
@@ -184,7 +184,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-## 📊 Key Results & Insights
+## Key Results & Insights
 
 1. **Overall Averages**:
    - Average Download Speed: **~551.18 Mbps**
@@ -206,6 +206,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-## 🎓 Academic Summary
+## Academic Summary
 
 This project demonstrates an end-to-end data lifecycle from raw network measurements to actionable QoS insights. It combines data engineering (PySpark), statistical analytics (Pandas/SciPy), predictive modeling (Scikit-Learn), and modern web visualization (Next.js/React).
