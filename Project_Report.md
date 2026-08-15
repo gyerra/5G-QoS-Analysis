@@ -224,12 +224,13 @@ app/
 
 ---
 
-## 8. Conclusion & Strategic Recommendations
+## 8. Conclusion & Scope of Future Improvements
 
 ### 8.1 Technical Conclusions
-1. **Network Latency Control**: Network latency is strongly dependent on data usage and signal noise, making Gradient Boosting the recommended model for predictive SLA enforcement ($\text{MAE} = 3.18$ ms).
-2. **Access Network Performance**: 5G Non-Standalone (NSA) and Standalone (SA) configurations demonstrate consistent latency profiles ($\approx 10.47$ – $10.53$ ms) across all spatial regions.
+1. **Network Latency Modeling**: Network latency exhibits structured statistical dependence on data volume and radio link parameters, enabling Gradient Boosting to achieve accurate SLA predictive modeling ($\text{MAE} = 3.18$ ms, $R^2 = 0.521$).
+2. **Access Network Stability**: 5G Non-Standalone (NSA) and 5G Standalone (SA) deployments deliver stable latency profiles ($\approx 10.47$ – $10.53$ ms) across varying geographical network sectors.
 
-### 8.2 Operational Recommendations
-- Implement dynamic carrier aggregation during peak temporal congestion intervals ($18:00 - 21:00$).
-- Extend the analytics framework by integrating stream processing technologies (Apache Kafka) for live cell tower telemetry streams.
+### 8.2 Scope of Future Improvements
+1. **Real-Time Data Streaming**: Integration of Apache Kafka with Spark Streaming to support live sub-second cellular telemetry ingestion and anomaly detection.
+2. **Advanced Deep Learning Models**: Implementation of recurrent architectures (LSTM) and Temporal Convolutional Networks (TCN) for dynamic sequence forecasting.
+3. **Geographic GIS Heatmapping**: Resolution mapping from city-level categorical strings to high-precision GPS coordinates for cell tower spatial heatmapping.
