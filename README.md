@@ -2,7 +2,7 @@
 
 Academic Project for **Data Analysis & Visualization** and **Big Data Fundamentals**.
 
----
+----
 
 ## Practical Purpose & Business Use Case of the Dashboard
 
