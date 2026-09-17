@@ -1,0 +1,22 @@
+Column,Missing Count,Missing Percentage (%),Data Type
+Timestamp,0,0.0,str
+Location,0,0.0,str
+Signal Strength (dBm),0,0.0,float64
+Download Speed (Mbps),0,0.0,float64
+Upload Speed (Mbps),0,0.0,float64
+Latency (ms),0,0.0,float64
+Jitter (ms),0,0.0,float64
+Network Type,0,0.0,str
+Device Model,0,0.0,str
+Carrier,0,0.0,str
+Band,0,0.0,str
+Battery Level (%),0,0.0,int64
+Temperature (°C),0,0.0,float64
+Connected Duration (min),0,0.0,int64
+Handover Count,0,0.0,int64
+Data Usage (MB),0,0.0,float64
+Video Streaming Quality,0,0.0,int64
+VoNR Enabled,0,0.0,bool
+Network Congestion Level,0,0.0,str
+Ping to Google (ms),0,0.0,float64
+Dropped Connection,0,0.0,bool

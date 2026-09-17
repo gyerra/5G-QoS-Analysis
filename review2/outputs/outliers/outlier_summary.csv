@@ -1,0 +1,13 @@
+Feature,Q1 (25th %),Q3 (75th %),IQR,Lower Bound,Upper Bound,Outlier Count,Outlier Percentage (%)
+Signal Strength (dBm),-97.4,-72.2,25.2,-135.2,-34.4,0,0.0
+Download Speed (Mbps),324.65,775.875,451.225,-352.1875,1452.7125,0,0.0
+Upload Speed (Mbps),52.23,117.32,65.09,-45.405,214.955,0,0.0
+Latency (ms),5.7,15.3,9.6,-8.7,29.7,0,0.0
+Jitter (ms),1.33,3.78,2.45,-2.345,7.455,0,0.0
+Battery Level (%),32.0,77.0,45.0,-35.5,144.5,0,0.0
+Temperature (°C),26.2,38.7,12.5,7.45,57.45,0,0.0
+Connected Duration (min),15.0,45.0,30.0,-30.0,90.0,0,0.0
+Handover Count,1.0,3.0,2.0,-2.0,6.0,0,0.0
+Data Usage (MB),133.2375,376.425,243.1875,-231.5437,741.2062,0,0.0
+Video Streaming Quality,2.0,4.0,2.0,-1.0,7.0,0,0.0
+Ping to Google (ms),32.4,77.4,45.0,-35.1,144.9,0,0.0

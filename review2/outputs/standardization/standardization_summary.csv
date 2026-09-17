@@ -1,0 +1,13 @@
+Feature,Original Mean,Original Std,Standardized Mean,Standardized Std,Standardized Min (Z-min),Standardized Max (Z-max)
+Signal Strength (dBm),-84.8373,14.4776,-0.0,1.0,-1.7381,1.7156
+Download Speed (Mbps),551.1811,260.4344,0.0,1.0,-1.7323,1.7233
+Upload Speed (Mbps),84.8018,37.5908,-0.0,1.0,-1.7239,1.7344
+Latency (ms),10.4972,5.5051,0.0,1.0,-1.7252,1.7262
+Jitter (ms),2.5607,1.4161,-0.0,1.0,-1.7377,1.7226
+Battery Level (%),54.5791,26.0339,-0.0,1.0,-1.7124,1.7063
+Temperature (°C),32.4503,7.2167,-0.0,1.0,-1.7252,1.739
+Connected Duration (min),29.8554,16.9953,-0.0,1.0,-1.6979,1.7149
+Handover Count,2.0042,1.4177,-0.0,1.0,-1.4137,1.4078
+Data Usage (MB),254.3811,140.989,0.0,1.0,-1.7334,1.7421
+Video Streaming Quality,3.0,1.4159,0.0,1.0,-1.4125,1.4125
+Ping to Google (ms),54.9471,25.9835,-0.0,1.0,-1.7298,1.7339

@@ -1,0 +1,13 @@
+Feature,Fisher Excess Kurtosis,Pearson Kurtosis,Skewness,Tail Classification,Convention Note
+Signal Strength (dBm),-1.2124,1.7876,-0.0114,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Download Speed (Mbps),-1.2017,1.7983,-0.0066,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Upload Speed (Mbps),-1.204,1.796,0.01,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Latency (ms),-1.2031,1.7969,-0.0012,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Jitter (ms),-1.201,1.799,-0.009,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Battery Level (%),-1.207,1.793,-0.0004,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Temperature (°C),-1.1976,1.8024,0.0065,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Connected Duration (min),-1.196,1.804,0.0082,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Handover Count,-1.3078,1.6922,-0.0033,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Data Usage (MB),-1.1913,1.8087,0.0107,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Video Streaming Quality,-1.303,1.697,-0.005,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)
+Ping to Google (ms),-1.2,1.8,-0.0012,"Platykurtic (Light-tailed, flat shoulders, low outlier risk)",Excess kurtosis (Normal = 0.0)

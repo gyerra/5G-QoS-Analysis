@@ -1,0 +1,24 @@
+Dataset Shape: 50000 rows, 21 columns
+
+Columns:
+- Timestamp
+- Location
+- Signal Strength (dBm)
+- Download Speed (Mbps)
+- Upload Speed (Mbps)
+- Latency (ms)
+- Jitter (ms)
+- Network Type
+- Device Model
+- Carrier
+- Band
+- Battery Level (%)
+- Temperature (°C)
+- Connected Duration (min)
+- Handover Count
+- Data Usage (MB)
+- Video Streaming Quality
+- VoNR Enabled
+- Network Congestion Level
+- Ping to Google (ms)
+- Dropped Connection

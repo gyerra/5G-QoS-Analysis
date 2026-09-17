@@ -1,0 +1,13 @@
+Feature,Original Missing Count,Computed Mean,Computed Median,Std Dev,Skewness,Recommended Strategy,Missing After Mean Imputation,Missing After Median Imputation
+Signal Strength (dBm),0,-84.8373,-84.8,14.4776,-0.0114,Mean (Distribution is relatively symmetric),0,0
+Download Speed (Mbps),0,551.1811,552.13,260.4344,-0.0066,Mean (Distribution is relatively symmetric),0,0
+Upload Speed (Mbps),0,84.8018,84.71,37.5908,0.01,Mean (Distribution is relatively symmetric),0,0
+Latency (ms),0,10.4972,10.5,5.5051,-0.0012,Mean (Distribution is relatively symmetric),0,0
+Jitter (ms),0,2.5607,2.57,1.4161,-0.009,Mean (Distribution is relatively symmetric),0,0
+Battery Level (%),0,54.5791,55.0,26.0339,-0.0004,Mean (Distribution is relatively symmetric),0,0
+Temperature (°C),0,32.4503,32.4,7.2167,0.0065,Mean (Distribution is relatively symmetric),0,0
+Connected Duration (min),0,29.8554,30.0,16.9953,0.0082,Mean (Distribution is relatively symmetric),0,0
+Handover Count,0,2.0042,2.0,1.4177,-0.0033,Mean (Distribution is relatively symmetric),0,0
+Data Usage (MB),0,254.3811,252.975,140.989,0.0107,Mean (Distribution is relatively symmetric),0,0
+Video Streaming Quality,0,3.0,3.0,1.4159,-0.005,Mean (Distribution is relatively symmetric),0,0
+Ping to Google (ms),0,54.9471,55.0,25.9835,-0.0012,Mean (Distribution is relatively symmetric),0,0

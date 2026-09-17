@@ -1,0 +1,6 @@
+Variable X,Variable Y,Pearson r,Pearson p-value,Spearman rho,Spearman p-value
+Download Speed (Mbps),Latency (ms),0.0019,6.7244e-01,0.0019,6.6920e-01
+Signal Strength (dBm),Download Speed (Mbps),0.0005,9.1974e-01,0.0004,9.2464e-01
+Latency (ms),Jitter (ms),-0.0062,1.6616e-01,-0.0062,1.6517e-01
+Signal Strength (dBm),Ping to Google (ms),0.0036,4.2165e-01,0.0036,4.1644e-01
+Upload Speed (Mbps),Download Speed (Mbps),-0.0087,5.2462e-02,-0.0087,5.3009e-02

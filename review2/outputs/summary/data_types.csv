@@ -1,0 +1,22 @@
+Column,Dtype,Non-Null Count,Null Count,Unique Values
+Timestamp,str,50000,0,50000
+Location,str,50000,0,8
+Signal Strength (dBm),float64,50000,0,501
+Download Speed (Mbps),float64,50000,0,38384
+Upload Speed (Mbps),float64,50000,0,12738
+Latency (ms),float64,50000,0,191
+Jitter (ms),float64,50000,0,491
+Network Type,str,50000,0,3
+Device Model,str,50000,0,5
+Carrier,str,50000,0,7
+Band,str,50000,0,5
+Battery Level (%),int64,50000,0,90
+Temperature (°C),float64,50000,0,251
+Connected Duration (min),int64,50000,0,59
+Handover Count,int64,50000,0,5
+Data Usage (MB),float64,50000,0,31385
+Video Streaming Quality,int64,50000,0,5
+VoNR Enabled,bool,50000,0,2
+Network Congestion Level,str,50000,0,3
+Ping to Google (ms),float64,50000,0,901
+Dropped Connection,bool,50000,0,2
